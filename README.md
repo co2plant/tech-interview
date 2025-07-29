@@ -43,16 +43,16 @@
 
 ## 📚 이번 세션 주제: 데이터베이스 (Database)
 * **주요 발표 내용**:
-    [] DB 개념
-    [] SQL 쿼리
-    [] Join
-    [] DDL
-    [] 정규화
-    [] RDBMS vs NoSQL
-    [] Key, 이상(Anomaly) + 데이터 무결성
-    [] 트랜잭션
-    [] Lock
-    [] Index
-    [] etc...
+    - [ ] DB 개념
+    - [x] SQL 쿼리
+    - [ ] Join
+    - [ ] DDL
+    - [ ] 정규화
+    - [ ] RDBMS vs NoSQL
+    - [ ] Key, 이상(Anomaly) + 데이터 무결성
+    - [ ] 트랜잭션
+    - [ ] Lock
+    - [ ] Index
+    - [ ] etc...
 
 ### 🧑‍💻 참여자
