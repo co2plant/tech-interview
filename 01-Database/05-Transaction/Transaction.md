@@ -29,6 +29,8 @@
 
 트랜잭션은 이 두개의 개별연산을 하나의 논리적 단위로 묶어, 인출과 입금이 성공 또는 실패가 되도록 보장함으로써 논리적 모순을 방지합니다.
 
+---
+
 ### 트랜잭션의 상태
 트랜잭션은 다음과 같은 상태(생명주기)를 따릅니다.
 ![트랜잭션](src/Transaction.png)
@@ -43,6 +45,7 @@
 5. **철회(Aborted)**
     트랜잭션이 롤백(Rollback)되어 시작 이전의 상태로 복구된 상태
 
-### 트랜잭션 제어어(Transaction Control Language, TCL)
-[TCL](TransactionControlLanguage.md);
+---
+
+### [트랜잭션 제어어(Transaction Control Language, TCL)](TransactionControlLanguage.md)
 
