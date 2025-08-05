@@ -632,7 +632,7 @@ FROM table_name;
         - FIRST_VALUE, LAST_VALUE, LAG, LEAD
     - **그룹 내 비율 함수**
         - 그룹 내 비율이나 분포 계산 함수
-        - CUME_DIST, PERCENT_RANK, NTILE, RATION_TO_REPORT
+        - CUME_DIST, PERCENT_RANK, NTILE, RATIO_TO_REPORT
     - **통계 및 선형 분석 함수**
         - 상관관계, 표준편차 등 통계 계싼에 쓰이는 함수
         - 지원 DBMS마다 다름
