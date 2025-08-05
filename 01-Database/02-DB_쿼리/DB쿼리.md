@@ -808,7 +808,7 @@ LIKE 연산자는 SELECT, UPDATE, DELETE 등에서 `문자열 패턴 매칭에 �
 
 - **대소문자 구분**
     - 데이터베이스에 따라 대소문자 구분 여부가 다름
-    - 원하는 결과 나오지 않으면 COLLATE, UPPDER, LOVWER 함수 활용
+    - 원하는 결과 나오지 않으면 COLLATE, UPPER, LOWER 함수 활용
 
 - **와일드카드 등 특수문자 사용**
     - %, _ 문자 자체 검색하려면 ESCAPE 옵션 or 이스케이프 문자 사용
