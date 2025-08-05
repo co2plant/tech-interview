@@ -623,7 +623,7 @@ FROM table_name;
 - **`OVER 앞에 다양한 함수`**
     - **그룹 내 순위 함수**
         - 특정 그룹 내 순위 계산 함수
-        - RANK, DENCE_RANK, ROW_NUMBER
+        - RANK, DENSE_RANK, ROW_NUMBER
     - **그룹 내 집계 함수**
         - 기존 집계 함수 확장한 함수
         - SUM, MAX, MIN, AVG, COUNT
