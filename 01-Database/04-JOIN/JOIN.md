@@ -585,7 +585,7 @@ WHERE 절은 조인 이후 데이터를 한 번 더 걸러내기 때문에 처�
     
     ```java
     Driving Table 배열 길이 = 500000;
-    Drivien Table 배열 길이 = 1000;
+    Driven Table 배열 길이 = 1000;
     
     for(int i=0; i<500000; i++){  <- Driving Table
     	for(int j=0; j<1000; j++){  <- Driven Table
