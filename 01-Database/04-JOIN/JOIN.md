@@ -117,7 +117,7 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%201.png)
+![image.png](/img/image1.png)
 
 ### outer join
 
@@ -144,7 +144,7 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%202.png)
+![image.png](/img/image2.png)
 
 <br>
 
@@ -171,7 +171,7 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%203.png)
+![image.png](/img/image3.png)
 
 <br>
 
@@ -199,7 +199,7 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%204.png)
+![image.png](/img/image4.png)
 
 <br>
 
@@ -239,7 +239,7 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%205.png)
+![image.png](/img/image5.png)
 
 <br>
 
@@ -298,11 +298,11 @@ ON 테이블1.공통컬럼 = 테이블2.공통컬럼;
 
 <br>
 
-![image.png](/img/image%206.png)
+![image.png](/img/image6.png)
 
 <br>
 
-![image.png](/img/image%207.png)
+![image.png](/img/image7.png)
 
 <br>
 
