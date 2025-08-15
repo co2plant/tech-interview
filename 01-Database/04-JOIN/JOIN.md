@@ -585,10 +585,10 @@ WHERE 절은 조인 이후 데이터를 한 번 더 걸러내기 때문에 처�
     
     ```java
     Driving Table 배열 길이 = 500000;
-    Drivien Table 배열 길이 = 1000;
+    Driven Table 배열 길이 = 1000;
     
     for(int i=0; i<500000; i++){  <- Driving Table
-    	for(int j=0; j<1000; j++){  <- Drivien Table
+    	for(int j=0; j<1000; j++){  <- Driven Table
     		if(Driving Table[i]==Driven Table[j]){
     			// Join 수행!
     			break;
@@ -699,7 +699,7 @@ WHERE 절은 조인 이후 데이터를 한 번 더 걸러내기 때문에 처�
     - where 조건으로 많이 필터링 되어 데이터 줄어들 수 있는 테이블을 앞에 배치
         - 쿼리 논리적 실행 순서는 join > where
         - 하지만 실제는 옵티마이저가 순서 바꿔서 실행 가능
-        - where로 데이터 많이 줄일 것 같으면 where 먼저 실
+        - where로 데이터 많이 줄일 것 같으면 where 먼저 실행
 
 - **Driven table에 index가 있는 것이 중요함**
 
