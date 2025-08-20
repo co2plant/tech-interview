@@ -1,5 +1,6 @@
 # RDBMS vs NoSQL
 ![https://whatap.io/bbs/board.php?bo_table=blog&wr_id=216&page=3](./src/whatap.io.rdbms.nosql.jpg)
+
 # RDBMS
 관계형 데이터베이스 관리 시스템(RDBMS)은 데이터를 테이블 형식으로 저장하고, SQL(Structured Query Language)을 사용하여 데이터를 관리하는 시스템입니다. <br />
 일반적으로 고정된 스키마를 가지고 있으며, 외래 키를 사용하여 테이블 간의 관계를 정의합니다.
@@ -33,10 +34,15 @@ Mongo DB를 예시로 들면, 데이터 구조를 사전에 정의하지 않고�
 
 ## 수직 확장(Scale-Up) vs 수평 확장(Scale-Out)
 ### 수직 확장(Scale-Up)
+![수직 확장](./src/ScaleUp.png)
+
+
 단일 서버의 하드웨어(CPU, RAM, 디스크 등)를 업그레이드해 성능을 향상시키는 방식입니다.<br />
 단, 업그레이드의 한계가 있어, 서버의 성능이 일정 수준 이상으로 향상되기 어려우며 금액적 부담이 큽니다.<br />
 
 ### 수평 확장(Scale-Out)
+![수평 확장](./src/ScaleOut.png)
+
 서버를 추가하여 데이터베이스의 용량을 확장하는 방식입니다.<br />
 NoSQL은 데이터 분산 처리와 클러스터링을 통해 수평 확장을 지원합니다.<br />
 설계부터 데이터 분산 저장을 염두에 두기 때문에 수평 확장이 용이합니다.
@@ -49,17 +55,23 @@ NoSQL은 데이터 분산 처리와 클러스터링을 통해 수평 확장을 �
 NoSQL은 BASE 모델을 따르며, 데이터의 **일관성**보다 **고가용성**과 **파티셔닝**에 중점을 둡니다.
 
 #### 기본적 가용성(Basically Available)
+![기본적 가용성](./src/BasicallyAvailable.png)
+
 분산된 시스템의 특정 노드에 장애가 발생하더라도,<br /> 
 시스템 전체가 멈추지 않고 항상 요청에 응답할 수 있는 상태여야합니다.
 
 단, 일부 노드가 장애가 발생하면 데이터의 일관성이 깨질 수 있습니다.
 
 #### 유연한 상태(Soft state)
+![유연한 상태](./src/SoftState.png)
+
 외부의 새로운 입력이 없더라도 시간이 지나면 스스로 변할 수 있습니다.
 
 (최종적 일관성을 맞추기 위해 내부적으로 계속 데이터를 동기화하기 때문)
 
 #### 최종적 일관성(Eventually consistent)
+![최종적 일관성](./src/EventuallyConsistency.png)
+
 시스템에 더 이상 새로운 데이터 수정이 없다면,<br />
 결국 언젠가는 모든 노드의 데이터가 같은 값으로 일관성을 유지하게 됩니다.
 
@@ -80,20 +92,28 @@ NoSQL은 BASE 모델을 따르기 때문에, 데이터의 일관성을 보장하
 
 # NoSQL 유형
 ## 키-값 저장소(Key-Value Store)
+![키 값 저장소](./src/KeyValue.png)
+
 JSON처럼 **Key와 Value 쌍**으로 데이터를 저장하는 방식입니다.
 - 예시 : Redis, Amazon DynamoDB
 
 ## 문서 저장소(Document Store)
+![문서 저장소](./src/Document.png)
+
 Key-Value 저장소의 확장으로 **Value부분에 JSON, XML 등의 구조화된 문서를 통째로 저장**하는 방식입니다.
 - 예시 : MongoDB, CouchDB
 
 ## 컬럼 패밀리 저장소(Column Family Store) = Wide Column Store
+![컬럼 패밀리 저장소](./src/ColumnFamily.png)
 데이터를 컬럼 단위로 저장하는 방식으로, RDBMS와 달리 데이터를 **ROW, COLUMN 그리고 이 둘을 묶는COLUMN 패밀리**로 관리합니다.
 - 예시 : Apache Cassandra, HBase
 
 ## 그래프 데이터 베이스(Graph Database)
+![그래프 저장소](./src/Graph.png)
+
 **데이터를 노드로 보고, 노드들을 잇는 엣지(Edge)로 표현** 하여 복잡한 관계를 표현하는데 중점을 둔 방식입니다.
 - 예시 : Neo4j, Amazon Neptune, JanusGraph
 
 ## References
 - [RDBMS와 NoSQL의 차이](https://whatap.io/bbs/board.php?bo_table=blog&wr_id=216&page=3)
+- [MongoDB](https://www.mongodb.com/ko-kr/resources/basics/databases/nosql-explained)
