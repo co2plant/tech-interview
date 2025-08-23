@@ -84,7 +84,7 @@ READ_COMMITED 격리 수준부터는 발생하지 않음
 
 <br>
 
-### UNREAPTABLE READ
+### UNREPEATABLE READ
 
 A 트랜잭션이 반복적으로 SELECT 쿼리를 실행함
 
