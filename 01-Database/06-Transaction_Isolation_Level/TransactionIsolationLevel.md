@@ -169,7 +169,7 @@ Dirty Read 상황은 시스템에 상당한 버그를 초래 가능
 
 <br>
 
-### READ_COMMITED
+### READ_COMMITTED
 
 **다른 트랜잭션이 COMMIT한 변경 내용만 읽을 수 있는 격리 수준**
 
