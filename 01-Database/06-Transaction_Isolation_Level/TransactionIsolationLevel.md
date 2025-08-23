@@ -135,7 +135,7 @@ MySQL은 REPEATABLE READ 격리 수준에서 **gap lock 같은 기법으로 Phan
 격리 수준이 낮은 순서대로 아래와 같음
 
 - READ_UNCOMMITED
-- READ COMMITED
+- READ COMMITTED
 - REPEATABLE READ
 - SERIALIZABLE
 
