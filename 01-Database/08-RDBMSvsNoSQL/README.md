@@ -78,7 +78,7 @@ NoSQL은 BASE 모델을 따르며, 데이터의 **일관성**보다 **고가용�
 
 ### ACID vs BASE 참고사항
 최근에는 RDBMS도 클러스터링이나 샤딩(Sharding)을 통해 수평 확장을 지원하는 경우가 많습니다.<br />
-NoSQL도 제한된 범위 안에서 ACID 트랜잭션을 지원하기 때문에 ACID와 BASE는 RDBMS와 NoSQL의 **기초 설계 철학** 이라고 이해해야합니다.
+NoSQL도 제한된 범위 안에서 ACID 트랜잭션을 지원하기 때문에 ACID와 BASE는 RDBMS와 NoSQL의 **기초 설계 철학** 이라고 이해해야 합니다.
 
 ## NoSQL의 트레이드 오프(Trade-off)
 ### 일관성 문제
