@@ -106,7 +106,7 @@ Key-Value 저장소의 확장으로 **Value부분에 JSON, XML 등의 구조화�
 
 ## 컬럼 패밀리 저장소(Column Family Store) = Wide Column Store
 ![컬럼 패밀리 저장소](./src/ColumnFamily.png)
-데이터를 컬럼 단위로 저장하는 방식으로, RDBMS와 달리 데이터를 **ROW, COLUMN 그리고 이 둘을 묶는COLUMN 패밀리**로 관리합니다.
+데이터를 컬럼 단위로 저장하는 방식으로, RDBMS와 달리 데이터를 **ROW, COLUMN 그리고 이 둘을 묶는 COLUMN 패밀리**로 관리합니다.
 - 예시 : Apache Cassandra, HBase
 
 ## 그래프 데이터 베이스(Graph Database)
