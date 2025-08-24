@@ -254,11 +254,11 @@ WITH CHECK OPTION은 WHERE 조건에 맞지 않는 삽입, 수정을 막기 때�
 
 뷰는 데이터베이스에서 중요한 추상화 도구로서, 복잡한 쿼리를 단순화하고 보안을 강화하며 데이터 독립성을 제공합니다. 일반 뷰와 구체화된 뷰 각각의 특성을 이해하고 적절한 상황에서 활용한다면, 효율적이고 안전한 데이터베이스 운영이 가능합니다.
 
-SELECT * FROM v_monthly_vip_customers 
-ORDER BY total_purchase_amount DESC;
+## 출처
+[DATABASE MANAGEMENT SYSTEMS](https://mrcet.com/downloads/digital_notes/ECE/III%20Year/DATABASE%20MANAGEMENT%20SYSTEMS.pdf)
 
-| emp_id | emp_name | department | salary | validation |
-| :--- | :--- | :--- | :--- | :--- |
-| 101 | 박서준 | 개발팀 | 9500 | true |
-| 201 | 최은우 | 기획팀 | 8200 | true |
-| **202** | **오기획** | **기획팀** | **7000** | false | 
+[Database System Concepts 7th](https://product.kyobobook.co.kr/detail/S000003152442)
+
+[이것이 MySQL이다](https://www.youtube.com/watch?v=NctoVaj1pQs)
+
+[이것이 MySQL이다 개정판](https://www.youtube.com/watch?v=pUQNpYTNvC4)
