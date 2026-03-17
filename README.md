@@ -57,10 +57,8 @@
 └── 📄 README.md
 ```
 
-## 📚 이번 세션 주제: 자율
-이번 세션에서는 본인이 관심 있는 주제를 자유롭게 선정하여 발표합니다.
-
-다양한 주제를 통해 폭넓은 지식을 쌓아가길 기대합니다!
+## 📚 이번 세션 주제: 휴식
+배우고 싶은 주제가 있거나 궁금한 주제가 생기면 이슈로 남겨주세요!
 
 ### 🧑‍💻 참여자
 |[![](https://github.com/co2plant.png?width=40px)](https://github.com/co2plant) | [![](https://github.com/CJ-1998.png?width=40px)](https://github.com/CJ-1998) | [![](https://github.com/commentLee.png?width=40px)](https://github.com/commentLee) | [![](https://github.com/seolsa1014.png?width=40px)](https://github.com/seolsa1014) | [![](https://github.com/skywalkbee300.png?width=40px)](https://github.com/skywalkbee300) |
